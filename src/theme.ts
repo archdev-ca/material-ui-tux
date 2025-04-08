@@ -82,3 +82,5 @@ export const TuxTheme = createTheme({
     },
   },
 });
+
+export default TuxTheme;

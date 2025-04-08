@@ -1,7 +1,7 @@
 {
   "name": "material-ui-tux",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -50,7 +50,8 @@
     "@mui/material": "^7.0.1"
   },
   "main": "dist/index.js",
-  "types": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
