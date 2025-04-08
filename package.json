@@ -1,7 +1,7 @@
 {
   "name": "material-ui-tux",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -46,7 +46,14 @@
     "vite": "^6.2.3",
     "vitest": "^3.1.1"
   },
-  "main": "index.js",
+  "peerDependencies": {
+    "@mui/material": "^7.0.1"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "repository": "https://github.com/archdev-ca/material-ui-tux.git",
   "author": "Archie G <acgelonga@gmail.com>",
   "license": "MIT",

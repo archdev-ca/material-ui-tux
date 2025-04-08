@@ -1,4 +1,3 @@
-import React from "react";
 import { Button, Stack } from "@mui/material";
 import { Meta, StoryObj } from "@storybook/react";
 import SaveIcon from "@mui/icons-material/Save";

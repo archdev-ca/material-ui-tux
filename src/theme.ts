@@ -23,7 +23,7 @@ export const TuxTheme = createTheme({
           variants: [
             {
               props: { variant: "link" },
-              style: ({ theme }) => {
+              style: () => {
                 return {
                   display: "none",
                 };
