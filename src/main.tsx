@@ -1,8 +1,8 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import App from "./App.tsx";
+import App from "./App";
 
-import { TuxTheme } from "./theme.ts";
+import { TuxTheme } from "./theme";
 import { ThemeProvider } from "@mui/material";
 
 createRoot(document.getElementById("root")!).render(
